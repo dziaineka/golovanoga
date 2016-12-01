@@ -1,0 +1,12 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+ErrorDocument 404 http://golovanoga.org/
+
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} ^GET\ .*/index\.(php|html)\ HTTP
+RewriteRule ^(.*)index\.(php|html)$ /$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.golovanoga\.org$ [NC]
+RewriteRule ^(.*)$ http://golovanoga.org/$1 [R=301,L]
