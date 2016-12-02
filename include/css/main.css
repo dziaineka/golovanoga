@@ -1044,8 +1044,12 @@ nav#menu #menu-nav li a:hover {
     margin-bottom: 30px;
 }
 
-#mauser {
+#movax {
 	/*display: none;*/
+}
+
+#mauser {
+	display: none;
 }
 
 #garry {

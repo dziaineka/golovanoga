@@ -25,37 +25,37 @@
 <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
 <!-- Bootstrap -->
-<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+<link href="include/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Main Style -->
-<link href="_include/css/main.css" rel="stylesheet">
+<link href="include/css/main.css" rel="stylesheet">
 
 <!-- Supersized -->
-<link href="_include/css/supersized.css" rel="stylesheet">
-<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+<link href="include/css/supersized.css" rel="stylesheet">
+<link href="include/css/supersized.shutter.css" rel="stylesheet">
 
 <!-- FancyBox -->
-<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
 <!-- Font Icons -->
-<link href="_include/css/fonts.css" rel="stylesheet">
+<link href="include/css/fonts.css" rel="stylesheet">
 
 <!-- Shortcodes -->
-<link href="_include/css/shortcodes.css" rel="stylesheet">
+<link href="include/css/shortcodes.css" rel="stylesheet">
 
 <!-- Responsive -->
-<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
-<link href="_include/css/responsive.css" rel="stylesheet">
+<link href="include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="include/css/responsive.css" rel="stylesheet">
 
 <!-- Supersized -->
-<link href="_include/css/supersized.css" rel="stylesheet">
-<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+<link href="include/css/supersized.css" rel="stylesheet">
+<link href="include/css/supersized.shutter.css" rel="stylesheet">
 
 <!-- Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Exo+2:700,400,900,900italic,200italic,200,700italic,300italic,600italic,600,300,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 <!-- Fav Icon -->
-<link rel="shortcut icon" href="_include\img\logo\favicon.ico">
+<link rel="shortcut icon" href="include\img\logo\favicon.ico">
 
 <link rel="apple-touch-icon" href="#">
 <link rel="apple-touch-icon" sizes="114x114" href="#">
@@ -63,7 +63,7 @@
 <link rel="apple-touch-icon" sizes="144x144" href="#">
 
 <!-- Modernizr -->
-<script src="_include/js/modernizr.js"></script>
+<script src="include/js/modernizr.js"></script>
 
 <!-- Analytics -->
 <script>
@@ -155,7 +155,8 @@
                     <ul id="filters" class="option-set" data-option-key="filter">
                         <li class="type-work">Постановки</li>
                     <!--     <li><a href="#filter" data-option-value="*">Все работы</a></li> -->
-                        <li><a href="#filter" data-option-value=".mauser" class="selected">Маузер</a></li>
+                        <li><a href="#filter" data-option-value=".movax" class="selected">Мова X</a></li>
+                        <li><a href="#filter" data-option-value=".mauser">Маузер</a></li>
                         <li><a href="#filter" data-option-value=".garry">Спектакль про Гарича</a></li>
                         <li><a href="#filter" data-option-value=".somnambulist">Сомнамбулы</a></li>
                         <li><a href="#filter" data-option-value=".kashkin">Кашкін: некалькі словаў пра агрэсію</a></li>
@@ -170,6 +171,7 @@
             <!-- Start Tooltip -->
             <!-- Когда добавляешь сюда описание, дорогой друг, добавь новодобавленный id спектакля и в скрипт в main.js и main.css -->
             <div id="spectacle" class="span9">
+                <div id="movax">«Беларусь – это будущее Беларуси. Будто нас еще нет, но мы не можем не родиться». (О. Шпарага). «Мова Х» – это спектакль-ритуал, посвященный родному языку, в котором приглашаются поучаствовать зрители. Родиться вместе с языком, помочь ему повзрослеть, развиться, встретиться с препятствиями и переродиться вновь...</div>
                 <div id="mauser">30-40 минутный интерактивный спектакль, в котором зритель выступает равноправным участником. Драматург, чьи строки звучат в спектакле, задался темой революции, поведения индивида и толпы… Но вы можете обнаружить в этом всем нечто свое.</div>
                 <div id="garry">30-минутный спектакль полный волшебства с элементами интерактива и играми. Основан на личных историях-воспоминаниях актеров. О книгах про Гарри Поттера, каше и ностальгии по детству. Обязательный спутник атмосферы постановки – песня группы «Кассиопея» – «Солнце»</div> 
                 <div id="somnambulist">Перформанс, сопровождавший концерт-презентацию дебютного альбома группы MartinS., в котором каждая песня музыкантов и была определенным сном, со своей краской, сюжетом, финалом.</div> 
@@ -184,136 +186,234 @@
                 <div class="row">
                     <section id="projects">
                         <ul id="thumbs">
+                            <!-- MOVAX -->
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_1_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_1_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_2_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_2_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_3_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_3_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_4_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_4_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_5_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_5_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_6_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_6_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_7_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_7_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 movax">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мова X" href="include/img/work/movax/full/movax_8_full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="include/img/work/movax/thumbs/movax_8_thumb.jpg" alt="">
+                            </li>
+                            <!-- End Item Project -->
+                            <!-- END MOVAX -->
+
                             <!-- MAUSER -->
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_1_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_2_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_3_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_4_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_5_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_6_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_7_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_7_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_7_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_7_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_8_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_8_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_8_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_8_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_9_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_9_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_9_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_9_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_10_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_10_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_10_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_10_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 mauser">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="_include/img/work/mauser/full/mauser_11_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Маузер" href="include/img/work/mauser/full/mauser_11_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/mauser/thumbs/mauser_11_thumb.jpg" alt="">
+                                <img src="include/img/work/mauser/thumbs/mauser_11_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END MAUSER -->
@@ -322,120 +422,120 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_1_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_2_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_3_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_4_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_5_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_6_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_7_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_7_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_7_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_7_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_8_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_8_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_8_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_8_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_9_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_9_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_9_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_9_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 garry">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="_include/img/work/garry/full/garry_10_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Спектакль про Гарича" href="include/img/work/garry/full/garry_10_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/garry/thumbs/garry_10_thumb.jpg" alt="">
+                                <img src="include/img/work/garry/thumbs/garry_10_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END GARRY -->
@@ -444,84 +544,84 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_1_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_2_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_3_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_4_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_5_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_6_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 somnambulist">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="_include/img/work/somnambulist/full/somnambulist_7_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Сомнамбулы" href="include/img/work/somnambulist/full/somnambulist_7_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/somnambulist/thumbs/somnambulist_7_thumb.jpg" alt="">
+                                <img src="include/img/work/somnambulist/thumbs/somnambulist_7_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END SOMNAMBULIST -->
@@ -530,180 +630,180 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_1_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_2_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_3_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_4_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_5_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_6_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_7_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_7_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_7_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_7_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_8_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_8_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_8_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_8_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_9_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_9_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_9_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_9_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_10_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_10_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_10_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_10_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_11_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_11_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_11_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_11_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_12_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_12_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_12_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_12_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_13_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_13_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_13_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_13_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_14_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_14_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_14_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_14_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kashkin">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="_include/img/work/kashkin/full/kashkin_15_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Кашкін: некалькі словаў пра агрэсію" href="include/img/work/kashkin/full/kashkin_15_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/kashkin/thumbs/kashkin_15_thumb.jpg" alt="">
+                                <img src="include/img/work/kashkin/thumbs/kashkin_15_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END KASHKIN -->
@@ -712,72 +812,72 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 breathing">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="_include/img/work/breathing/full/breathing_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="include/img/work/breathing/full/breathing_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/breathing/thumbs/breathing_1_thumb.jpg" alt="">
+                                <img src="include/img/work/breathing/thumbs/breathing_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 breathing">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="_include/img/work/breathing/full/breathing_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="include/img/work/breathing/full/breathing_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/breathing/thumbs/breathing_2_thumb.jpg" alt="">
+                                <img src="include/img/work/breathing/thumbs/breathing_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 breathing">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="_include/img/work/breathing/full/breathing_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="include/img/work/breathing/full/breathing_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/breathing/thumbs/breathing_3_thumb.jpg" alt="">
+                                <img src="include/img/work/breathing/thumbs/breathing_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 breathing">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="_include/img/work/breathing/full/breathing_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="include/img/work/breathing/full/breathing_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/breathing/thumbs/breathing_4_thumb.jpg" alt="">
+                                <img src="include/img/work/breathing/thumbs/breathing_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 breathing">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="_include/img/work/breathing/full/breathing_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="include/img/work/breathing/full/breathing_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/breathing/thumbs/breathing_5_thumb.jpg" alt="">
+                                <img src="include/img/work/breathing/thumbs/breathing_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 breathing">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="_include/img/work/breathing/full/breathing_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Легкое дыхание" href="include/img/work/breathing/full/breathing_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/breathing/thumbs/breathing_6_thumb.jpg" alt="">
+                                <img src="include/img/work/breathing/thumbs/breathing_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END BREATHING -->
@@ -786,120 +886,120 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_1_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_2_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_3_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_4_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_5_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_6_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_7_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_7_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_7_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_7_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_8_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_8_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_8_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_8_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_9_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_9_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_9_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_9_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 fukushima">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="_include/img/work/fukushima/full/fukushima_10_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Фукусима. Дождь" href="include/img/work/fukushima/full/fukushima_10_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/fukushima/thumbs/fukushima_10_thumb.jpg" alt="">
+                                <img src="include/img/work/fukushima/thumbs/fukushima_10_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END FUKUSHIMA -->
@@ -908,72 +1008,72 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 why">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="_include/img/work/why/full/why_1_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="include/img/work/why/full/why_1_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/why/thumbs/why_1_thumb.jpg" alt="">
+                                <img src="include/img/work/why/thumbs/why_1_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 why">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="_include/img/work/why/full/why_2_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="include/img/work/why/full/why_2_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/why/thumbs/why_2_thumb.jpg" alt="">
+                                <img src="include/img/work/why/thumbs/why_2_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 why">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="_include/img/work/why/full/why_3_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="include/img/work/why/full/why_3_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/why/thumbs/why_3_thumb.jpg" alt="">
+                                <img src="include/img/work/why/thumbs/why_3_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 why">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="_include/img/work/why/full/why_4_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="include/img/work/why/full/why_4_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/why/thumbs/why_4_thumb.jpg" alt="">
+                                <img src="include/img/work/why/thumbs/why_4_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 why">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="_include/img/work/why/full/why_5_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="include/img/work/why/full/why_5_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/why/thumbs/why_5_thumb.jpg" alt="">
+                                <img src="include/img/work/why/thumbs/why_5_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 why">
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="_include/img/work/why/full/why_6_full.jpg">
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Чаму?" href="include/img/work/why/full/why_6_full.jpg">
                                     <span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/why/thumbs/why_6_thumb.jpg" alt="">
+                                <img src="include/img/work/why/thumbs/why_6_thumb.jpg" alt="">
                             </li>
                             <!-- End Item Project -->
                             <!-- END WHY -->
@@ -1011,7 +1111,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">CTO/Founder</span>
                 </div> -->
-                <img src="_include/img/profile/karpitskaya.jpg" alt="Катя Карпицкая">
+                <img src="include/img/profile/karpitskaya.jpg" alt="Катя Карпицкая">
             </div>
             <h3 class="profile-name">Катя Карпицкая</h3>
             <p class="profile-description"></p>
@@ -1033,7 +1133,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Creative Director</span>
                 </div> -->
-                <img src="_include/img/profile/strelnikov.jpg" alt="Алексей Стрельников">
+                <img src="include/img/profile/strelnikov.jpg" alt="Алексей Стрельников">
             </div>
             <h3 class="profile-name">Алексей Стрельников</h3>
             <p class="profile-description"></p>
@@ -1054,7 +1154,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div> -->
-                <img src="_include/img/profile/azhgirey.jpg" alt="Катя Ажгирей">
+                <img src="include/img/profile/azhgirey.jpg" alt="Катя Ажгирей">
             </div>
             <h3 class="profile-name">Катя Ажгирей</h3>
             <p class="profile-description"></p>
@@ -1077,7 +1177,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div> -->
-                <img src="_include/img/profile/grekova.jpg" alt="Кристина Грекова">
+                <img src="include/img/profile/grekova.jpg" alt="Кристина Грекова">
             </div>
             <h3 class="profile-name">Кристина Грекова</h3>
             <p class="profile-description"></p>
@@ -1100,7 +1200,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div> -->
-                <img src="_include/img/profile/ivaniushenko.jpg" alt="Алена Иванюшенко">
+                <img src="include/img/profile/ivaniushenko.jpg" alt="Алена Иванюшенко">
             </div>
             <h3 class="profile-name">Алена Иванюшенко</h3>
             <p class="profile-description"></p>
@@ -1123,7 +1223,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div> -->
-                <img src="_include/img/profile/rybenkova.jpg" alt="Кристина Рыбенкова">
+                <img src="include/img/profile/rybenkova.jpg" alt="Кристина Рыбенкова">
             </div>
             <h3 class="profile-name">Кристина Рыбенкова</h3>
             <p class="profile-description"></p>
@@ -1146,7 +1246,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div> -->
-                <img src="_include/img/profile/valianskiy.jpg" alt="Денис Валянский">
+                <img src="include/img/profile/valianskiy.jpg" alt="Денис Валянский">
             </div>
             <h3 class="profile-name">Денис Валянский</h3>
             <p class="profile-description"></p>
@@ -1169,7 +1269,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div> -->
-                <img src="_include/img/profile/chekatoskaja.jpg" alt="Катя Чекатовская">
+                <img src="include/img/profile/chekatoskaja.jpg" alt="Катя Чекатовская">
             </div>
             <h3 class="profile-name">Катя Чекатовская</h3>
             <p class="profile-description"></p>
@@ -1414,7 +1514,7 @@
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2016 Голова-Нога.</p>
+	<p class="credits">&copy;2017 Голова-Нога.</p>
 </footer>
 <!-- End Footer -->
 
@@ -1427,16 +1527,16 @@
 
 <!-- Js -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
-<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
-<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
-<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
-<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
-<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
-<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-<script src="_include/js/main.js"></script> <!-- Default JS -->
+<script src="include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="include/js/main.js"></script> <!-- Default JS -->
 <!-- End Js -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
